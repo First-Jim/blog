@@ -2,10 +2,10 @@
 
 ### 下载源码
 
-从GitHub的仓库中下载博客工具源码到自己机器上
+从 GitHub 的仓库中下载博客工具源码到自己机器上
 
 ```bash
-git clone https://github.com/THS-FE/blog.git
+git clone https://github.com/First-Jim/blog.git
 ```
 
 ### 安装依赖
@@ -23,7 +23,7 @@ npm install
 hexo new post '博客的名称'
 ```
 
-需要用到图片等资源都放进新生成的文件夹中，图片尽量是JPG格式。
+需要用到图片等资源都放进新生成的文件夹中，图片尽量是 JPG 格式。
 使用以下语句来引入图片
 
 ```javascript
@@ -32,7 +32,7 @@ hexo new post '博客的名称'
 
 ### 删除帖子
 
-直接在source\_posts文件夹下删除对应的md文件和文件夹，再运行命令
+直接在 source_posts 文件夹下删除对应的 md 文件和文件夹，再运行命令
 
 ```bash
 hexo clean
@@ -60,9 +60,9 @@ hexo g
 hexo deploy
 ```
 
-第一次会要求输入你Github的用户名和密码。
+第一次会要求输入你 Github 的用户名和密码。
 
-如果部署以后发现 <https://ths-fe.github.io/> 博客没有更新，需要手动删除项目中的.deploy_git文件夹，重新运行命令
+如果部署以后发现 <https://first-jim.github.io/> 博客没有更新，需要手动删除项目中的.deploy_git 文件夹，重新运行命令
 
 ```bash
 hexo clean

@@ -9,11 +9,11 @@ description: ""
 keywords:
 author: Jimmy
 language: zh-CN
-timezone: Asia/Hangzhou
+timezone: Asia/ShangHai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://ths-fe.github.io
+url: https://First-Jim.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -99,6 +99,6 @@ theme: icarus
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/THS-FE/ths-fe.github.io.git
+  repo: https://github.com/First-Jim/First-Jim.github.io.git
   branch: master
-  message: 更新《从零开始搭建前端项目开发环境》文档
+  message: deploy

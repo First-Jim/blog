@@ -106,9 +106,9 @@ navbar:
     关于我: /about
   # Links to be shown on the right of the navigation bar
   links:
-    Download on GitHub:
-      icon: fab fa-github
-      url: "https://github.com/ppoffice/hexo-theme-icarus"
+    # Download on GitHub:
+    #   icon: fab fa-github
+    #   url: "https://github.com/ppoffice/hexo-theme-icarus"
 # Page footer configurations
 footer:
   # Links to be shown on the right of the footer section
@@ -212,11 +212,11 @@ widgets:
     # Author name
     author: Liu Jiaming
     # Author title
-    author_title: front-end
+    author_title: 致力于不断提升自身专业性
     # Author's current location
     location: Hangzhou
     # URL or path to the avatar image
-    avatar:
+    avatar: /img/avatar.jpeg
     # Whether show the rounded avatar image
     avatar_rounded: false
     # Email address for the Gravatar
@@ -224,22 +224,22 @@ widgets:
     # URL or path for the follow button
     follow_link: "https://github.com/First-Jim"
     # Links to be shown on the bottom of the profile widget
-    social_links:
-      Github:
-        icon: fab fa-github
-        url: "https://github.com/ppoffice"
-      Facebook:
-        icon: fab fa-facebook
-        url: "https://facebook.com"
-      Twitter:
-        icon: fab fa-twitter
-        url: "https://twitter.com"
-      Dribbble:
-        icon: fab fa-dribbble
-        url: "https://dribbble.com"
-      RSS:
-        icon: fas fa-rss
-        url: /
+    # social_links:
+    #   Github:
+    #     icon: fab fa-github
+    #     url: "https://github.com/ppoffice"
+    #   Facebook:
+    #     icon: fab fa-facebook
+    #     url: "https://facebook.com"
+    #   Twitter:
+    #     icon: fab fa-twitter
+    #     url: "https://twitter.com"
+    #   Dribbble:
+    #     icon: fab fa-dribbble
+    #     url: "https://dribbble.com"
+    #   RSS:
+    #     icon: fas fa-rss
+    #     url: /
   # Table of contents widget configurations
   - # Where should the widget be placed, left sidebar or right sidebar
     position: left
@@ -257,7 +257,7 @@ widgets:
     # Names and URLs of the sites
     links:
       Hexo: "https://hexo.io"
-      Bulma: "https://bulma.io"
+      # Bulma: "https://bulma.io"
   # Categories widget configurations
   - # Where should the widget be placed, left sidebar or right sidebar
     position: left
@@ -289,7 +289,7 @@ widgets:
     # AdSense client ID
     client_id: ca-pub-1149360057612929
     # AdSense AD unit ID
-    slot_id: ""
+    slot_id: "1441821178"
 # Plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:

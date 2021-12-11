@@ -19,10 +19,10 @@ head:
     # The start URL of the web application
     start_url:
     # The default theme color for the application
-    theme_color:
+    theme_color: "#be223a"
     # A placeholder background color for the application page to display
     # before its stylesheet is loaded
-    background_color:
+    background_color: "#be223a"
     # The preferred display mode for the website
     display: standalone
     # Image files that can serve as application icons for different contexts
@@ -287,7 +287,7 @@ widgets:
     position: left
     type: adsense
     # AdSense client ID
-    client_id: ""
+    client_id: ca-pub-1149360057612929
     # AdSense AD unit ID
     slot_id: ""
 # Plugin configurations

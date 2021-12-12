@@ -12,10 +12,10 @@ head:
   # https://developer.mozilla.org/en-US/docs/Web/Manifest
   manifest:
     # Name of the web application (default to the site title)
-    name:
+    name: 知己知彼
     # The displayed name of the web application
     # when there is not enough space to display full name
-    short_name: Jimmy-fe-end
+    short_name: fed
     # The start URL of the web application
     start_url:
     # The default theme color for the application
@@ -127,7 +127,7 @@ article:
   highlight:
     # Code highlight themes
     # https://github.com/highlightjs/highlight.js/tree/master/src/styles
-    theme: Atom One Dark
+    theme: monokai
     # Show copy code button
     clipboard: true
     # Default folding status of the code blocks. Can be "", "folded", "unfolded"
@@ -152,44 +152,44 @@ search:
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
-  type: disqus
+  # type: disqus
   # Disqus shortname
-  shortname: "jimmy"
+  shortname: ""
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:
   # "Afdian.net" donate button configurations
-  - type: afdian
-    # URL to the "Afdian.net" personal page
-    url: ""
+  # - type: afdian
+  # URL to the "Afdian.net" personal page
+  # url: ""
   # Alipay donate button configurations
   - type: alipay
     # Alipay qrcode image URL
     qrcode: /img/alipayqr.jpg
-  # "Buy me a coffee" donate button configurations
-  - type: buymeacoffee
+    # "Buy me a coffee" donate button configurations
+    # - type: buymeacoffee
     # URL to the "Buy me a coffee" page
-    url: ""
-  # Patreon donate button configurations
-  - type: patreon
+    # url: ""
+    # Patreon donate button configurations
+    # - type: patreon
     # URL to the Patreon page
-    url: ""
-  # Paypal donate button configurations
-  - type: paypal
+    # url: ""
+    # Paypal donate button configurations
+    # - type: paypal
     # Paypal business ID or email address
-    business: ""
+    # business: ""
     # Currency code
     currency_code: USD
   # Wechat donate button configurations
   - type: wechat
     # Wechat qrcode image URL
-    qrcode: ""
+    qrcode: /img/wechatqr.jpg
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 share:
-#   type: sharethis
-#   # URL to the ShareThis share plugin script
-#   install_url: ""
+  type: sharethis
+  #   # URL to the ShareThis share plugin script
+  install_url: "https://platform-api.sharethis.com/js/sharethis.js#property=61b5d089dfc4ad00193c0429&product=inline-share-buttons"
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
@@ -372,4 +372,4 @@ providers:
   # Name or URL template of the webfont CDN provider
   fontcdn: google
   # Name or URL of the fontawesome icon font CDN provider
-  iconcdn: fontawesome
+  iconcdn: "https://cdn.bootcdn.net/ajax/libs/font-awesome/5.13.1/css/all.min.css"

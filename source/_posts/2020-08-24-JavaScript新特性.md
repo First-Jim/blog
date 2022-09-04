@@ -1,7 +1,5 @@
 ---
 title: JavaScript新特性
-author: 吴俊
-authorLink: https://github.com/Patrick-Jun
 excerpt: 从ES6+中，总结了一些比较常用的新特性的基础用法
 cover: 2020/08/24/JavaScript新特性/cover.jpg
 thumbnail: 2020/08/24/JavaScript新特性/cover.jpg
@@ -164,7 +162,7 @@ const params = {
    }
    ```
 
-   答案：[见 4.答案](https://ths-fe.github.io/2020/08/24/JavaScript新特性/#答案)
+   答案：[见 4.答案](https://ljiaming.com/2020/08/24/JavaScript新特性/#答案)
 
 ### 2.3 方法属性
 
@@ -594,7 +592,7 @@ Promise.all([promise1, promise2, ...]).then(res => {
 
 模块化是 ES6 比较重要的特性，在此之前 JS 是不支持原生的模块化的，需要通过第三方库实现如 RequireJS。
 
-> 了解更多模块化：[JavaScript 模块化](https://ths-fe.github.io/2020/05/29/JavaScript模块化/)
+> 了解更多模块化：[JavaScript 模块化](https://ljiaming.com/2020/05/29/JavaScript模块化/)
 
 模块化由`export` 和 `import` 组成，ES6 视一个文件为一个模块，文件内通过 export 对外暴露接口，其他文件通过 import 引入使用。
 

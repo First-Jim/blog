@@ -1,6 +1,6 @@
 ---
 title: SonarQube安装与配置
-author: 刘莹鑫
+author: 
 authorLink: https://github.com/lyx383982759
 excerpt: 在写代码过程中，难免出现代码写的不规范或存在一些静态的 bug，这时一个良好的代码审查工具就很有必要，而 SonarQube 正好满足这个要求
 cover: 2021/04/27/SonarQube安装与配置/cover.jpg

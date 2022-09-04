@@ -92,6 +92,11 @@ ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+watermark:
+  enable: true
+  textEnable: true
+  rotate: -45
+  gravity: centre
 ## Themes: https://hexo.io/themes/
 theme: icarus
 
@@ -101,4 +106,4 @@ deploy:
   type: git
   repo: https://github.com/First-Jim/First-Jim.github.io.git
   branch: master
-  message: 2021-12-13-何为云原生
+  message:

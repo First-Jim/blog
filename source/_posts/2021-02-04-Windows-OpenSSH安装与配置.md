@@ -1,7 +1,5 @@
 ---
 title: Windows OpenSSH 安装与配置
-author: 刘莹鑫
-authorLink: https://github.com/lyx383982759
 excerpt: 实现 ssh 免密远程登录到 Windows 服务，并可以进行文件传输
 cover: 2021/02/04/Windows-OpenSSH安装与配置/cover.jpg
 thumbnail: 2021/02/04/Windows-OpenSSH安装与配置/cover.jpg

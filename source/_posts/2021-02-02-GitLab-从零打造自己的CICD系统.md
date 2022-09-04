@@ -1,7 +1,6 @@
 ---
 title: GitLab-从零打造自己的 CI/CD 系统
-author: 刘莹鑫
-authorLink: https://github.com/lyx383982759
+author: 
 excerpt: 本文从基本概念到实践操作，一步一步教会您如何打造自己的CI/CD系统
 cover: 2021/02/02/GitLab-从零打造自己的CICD系统/cover.jpg
 thumbnail: 2021/02/02/GitLab-从零打造自己的CICD系统/cover.jpg

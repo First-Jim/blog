@@ -139,7 +139,7 @@ Profile.Cacheable = cacheComponent(Profile, "widget.profile", (props) => {
     if (avatar) {
       return url_for(avatar);
     }
-    return url_for("/img/avatar.jpeg");
+    return url_for("/img/avatar.png");
   }
 
   const postCount = site.posts.length;

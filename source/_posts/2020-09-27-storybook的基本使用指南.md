@@ -1,7 +1,5 @@
 ---
 title: Storybook的基本使用指南
-author: 老吕
-authorLink: 请填写作者链接
 excerpt: Storybook的基本使用指南
 thumbnail: 2020/09/27/storybook的基本使用指南/cover.jpg
 cover: 2020/09/27/storybook的基本使用指南/cover.jpg

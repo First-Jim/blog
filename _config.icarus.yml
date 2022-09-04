@@ -215,7 +215,7 @@ widgets:
     # Author's current location
     location: Hangzhou
     # URL or path to the avatar image
-    avatar: /img/avatar.jpeg
+    avatar: /img/avatar.png
     # Whether show the rounded avatar image
     avatar_rounded: true
     # Email address for the Gravatar
@@ -308,7 +308,7 @@ plugins:
     tracking_id:
   # BuSuanZi site/page view counter
   # https://busuanzi.ibruce.info
-  busuanzi: false
+  busuanzi: true
   # CNZZ statistics
   # https://www.umeng.com/web
   cnzz:

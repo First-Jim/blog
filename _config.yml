@@ -106,4 +106,4 @@ deploy:
   type: git
   repo: https://github.com/First-Jim/First-Jim.github.io.git
   branch: master
-  message: optimize site
+  message: 2022-09-05-Git的使用和常用功能总结

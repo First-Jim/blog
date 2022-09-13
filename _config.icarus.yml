@@ -158,10 +158,10 @@ comment:
   # Disqus shortname
   shortname: "my-hexo-blog"
   api_key: "QqOhLHqbeeXa4XwULnuxs2EBxT5Bhecr7LeMuFJk3TtoypABtMJ5tgPUYyDLNh6V"
-  api: "https://disqus.skk.moe/disqus/" # Optional
-  admin: "ppoffice" # Optional
-  admin_label: "Admin" # Optional
-  nesting: "4"
+  # api: "https://disqus.skk.moe/disqus/" # Optional
+  # admin: "ppoffice" # Optional
+  # admin_label: "Admin" # Optional
+  nesting: 4
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:

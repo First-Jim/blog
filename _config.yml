@@ -106,4 +106,4 @@ deploy:
   type: git
   repo: https://github.com/First-Jim/First-Jim.github.io.git
   branch: master
-  message: 升级hexo 和 添加评论功能
+  message: 使用Vue3 新的技术栈打造企业级前端项目

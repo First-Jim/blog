@@ -1,53 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        @keyframes rotate1 {
-            0% {
-                transform: rotate(0deg)skew(0deg)scale(1);
-                -ms-transform: rotate(0deg)skew(0deg)scale(1);
-                -moz-transform: rotate(0deg)skew(0deg)scale(1);
-                -webkit-transform: rotate(0deg)skew(0deg)scale(1);
-                -o-transform: rotate(0deg)skew(0deg)scale(1);
-            }
-
-            100% {
-                transform: rotate(360deg)skew(0deg)scale(1);
-                -ms-transform: rotate(360deg)skew(0deg)scale(1);
-                -moz-transform: rotate(360deg)skew(0deg)scale(1);
-                -webkit-transform: rotate(360deg)skew(0deg)scale(1);
-                -o-transform: rotate(360deg)skew(0deg)scale(1);
-            }
+      @keyframes rotate1 {
+        0% {
+          transform: rotate(0deg) skew(0deg) scale(1);
+          -ms-transform: rotate(0deg) skew(0deg) scale(1);
+          -moz-transform: rotate(0deg) skew(0deg) scale(1);
+          -webkit-transform: rotate(0deg) skew(0deg) scale(1);
+          -o-transform: rotate(0deg) skew(0deg) scale(1);
         }
+
+        100% {
+          transform: rotate(360deg) skew(0deg) scale(1);
+          -ms-transform: rotate(360deg) skew(0deg) scale(1);
+          -moz-transform: rotate(360deg) skew(0deg) scale(1);
+          -webkit-transform: rotate(360deg) skew(0deg) scale(1);
+          -o-transform: rotate(360deg) skew(0deg) scale(1);
+        }
+      }
     </style>
-</head>
+  </head>
 
-<body>
-    <div style=" transform: rotateY(70deg);">
+  <body>
+    <div style="transform: rotateY(70deg)">
+      <div
+        style="
+          width: 800px;
+          height: 500px;
+          background-color: aqua;
+          transform-style: preserve-3d;
+          animation: rotate1 13s linear infinite;
+        "
+      >
         <div
-            style="width: 800px; height: 500px;background-color:aqua;transform-style: preserve-3d;animation: rotate1 13s linear infinite;">
-            <div
-                style="width:100px;height:100px;transform: rotateY(73deg); background-color: antiquewhite; border-radius: 50px;">
-            </div>
-        </div>
-        <div id="disqus_thread"></div>
-        <script id="dsq-count-scr" src="//my-hexo-blog.disqus.com/count.js" async></script>
-        <script type='text/javascript'
-            src='https://platform-api.sharethis.com/js/sharethis.js#property=61b5d089dfc4ad00193c0429&product=inline-share-buttons'
-            async='async'></script>
-    </div>
-</body>
-<script>
-     (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://my-hexo-blog.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
+          style="
+            width: 100px;
+            height: 100px;
+            transform: rotateY(73deg);
+            background-color: antiquewhite;
+            border-radius: 50px;
+          "
+        ></div>
+      </div>
+      <div id="disqus_thread"></div>
+      <!-- Google tag (gtag.js) -->
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-7HNG06HT51"
+      ></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
 
+        gtag("config", "G-7HNG06HT51");
+      </script>
+
+      <script
+        id="dsq-count-scr"
+        src="//my-hexo-blog.disqus.com/count.js"
+        async
+      ></script>
+      <script
+        type="text/javascript"
+        src="https://platform-api.sharethis.com/js/sharethis.js#property=61b5d089dfc4ad00193c0429&product=inline-share-buttons"
+        async="async"
+      ></script>
+    </div>
+  </body>
+  <script>
+    (function () {
+      // DON'T EDIT BELOW THIS LINE
+      var d = document,
+        s = d.createElement("script");
+      s.src = "https://my-hexo-blog.disqus.com/embed.js";
+      s.setAttribute("data-timestamp", +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
 </html>

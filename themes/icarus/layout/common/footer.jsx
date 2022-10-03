@@ -86,6 +86,9 @@ class Footer extends Component {
               ) : null}
             </div>
           </div>
+          <div class="copyright">
+            <a href="https://beian.miit.gov.cn">皖ICP备19023451号-1</a>
+          </div>
         </div>
       </footer>
     );

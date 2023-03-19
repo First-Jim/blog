@@ -147,7 +147,7 @@ props:{
         {
           width: '100%',
           height: '240',
-          backgroundColor: '#fff',
+          backgroundColor: '#333333',
         },
       ),
     },
@@ -219,11 +219,11 @@ export default {
       basic: {
         width: "100%",
         height: "240",
-        backgroundColor: "#fff",
+        backgroundColor: "#333333",
       },
       options: {
         color: [
-          "#538FFF",
+          "#538333333",
           "#FFBF27",
           "#FC807A",
           "#7BD25F",
@@ -232,7 +232,7 @@ export default {
         ],
         tooltip: {
           show: true,
-          backgroundColor: "#fff",
+          backgroundColor: "#333333",
           textStyle: {
             color: "#333",
             fontSize: "12",
@@ -436,7 +436,7 @@ export default {
   | --------------- | ---------------- | -------------- | ------------------------- |
   | width           | 整个统计图的宽度 | 百分比 \| 数值 | "width": "500"            |
   | height          | 整个统计图的高度 | 数值           | "height": "400"           |
-  | backgroundColor | 统计图背景颜色   | 颜色值         | "backgroundColor": "#fff" |
+  | backgroundColor | 统计图背景颜色   | 颜色值         | "backgroundColor": "#333333" |
 
 - options
 
@@ -450,7 +450,7 @@ export default {
      | --------------- | ------------------------ | :------: | :--------------------------------------------------------------------------------------------- |
      | show            | 是否显示提示框组件       |  布尔值  | "show": true                                                                                   |
      | textStyle       | 提示框组件的字体样式配置 |   对象   | "textStyle": { "color": "#333", "fontSize": "12", "fontFamily": "PF", "fontWeight": "normal" } |
-     | backgroundColor | 统计图背景颜色           |  颜色值  | backgroundColor: '#fff'                                                                        |
+     | backgroundColor | 统计图背景颜色           |  颜色值  | backgroundColor: '#333333'                                                                        |
 
   2. title（统计图标题）
 

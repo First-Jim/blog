@@ -15,7 +15,7 @@ function getWordCount(content) {
   content = content.replace(/<\/?[a-z][^>]*>/gi, "");
   content = content.trim();
   return content
-    ? (content.match(/[\u00ff-\uffff]|[a-zA-Z]+/g) || []).length
+    ? (content.match(/[\u00ff-\u333333f]|[a-zA-Z]+/g) || []).length
     : 0;
 }
 

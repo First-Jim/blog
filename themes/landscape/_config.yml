@@ -41,9 +41,3 @@ twitter:
 google_plus:
 fb_admins:
 fb_app_id:
-
-# hexo-admin authentification
-admin:
-  username: admin
-  password_hash: $2a$10$qzHNYomgeNF0iCNnUoB/ley5FWV3RxOlqG4gXNhDnqIWcdeB1dSGe
-  secret: hexo-admin-config

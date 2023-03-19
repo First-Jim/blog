@@ -11,6 +11,12 @@ author: Jimmy
 language: zh-CN
 timezone: Asia/ShangHai
 
+# hexo-admin authentification
+admin:
+  username: admin
+  password_hash: $2a$10$qzHNYomgeNF0iCNnUoB/ley5FWV3RxOlqG4gXNhDnqIWcdeB1dSGe
+  secret: hexo-admin-config
+
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://First-Jim.github.io

@@ -8,14 +8,20 @@ rss: /atom.xml
 excerpt_link: Read More
 fancybox: true
 
+# 自动生成sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
 # Sidebar
 sidebar: right
 widgets:
-- category
-- tag
-- tagcloud
-- archive
-- recent_posts
+  - category
+  - tag
+  - tagcloud
+  - archive
+  - recent_posts
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
@@ -24,7 +30,7 @@ index_widgets:
 # - archive
 
 # widget behavior
-archive_type: 'monthly'
+archive_type: "monthly"
 show_count: false
 
 # Miscellaneous
@@ -35,3 +41,9 @@ twitter:
 google_plus:
 fb_admins:
 fb_app_id:
+
+# hexo-admin authentification
+admin:
+  username: admin
+  password_hash: $2a$10$qzHNYomgeNF0iCNnUoB/ley5FWV3RxOlqG4gXNhDnqIWcdeB1dSGe
+  secret: hexo-admin-config

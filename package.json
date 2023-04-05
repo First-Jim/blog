@@ -5,7 +5,7 @@
   "scripts": {
     "build": "npx hexo generate",
     "clean": "npx hexo clean",
-    "deploy": "npx hexo deploy",
+    "deploy": "hexo generate && qshell qupload upload.conf",
     "g": "npx hexo g",
     "serve": "npx hexo server"
   },

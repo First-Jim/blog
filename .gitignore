@@ -9,4 +9,4 @@ package-lock.json
 .idea
 .github/
 *.lock
-.deploy_git
+upload.conf

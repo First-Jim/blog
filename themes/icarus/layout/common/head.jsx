@@ -214,7 +214,7 @@ module.exports = class extends Component {
             async
           ></script>
         ) : null}
-        <script src="/freecdn-loader.min.js"></script>;
+        <script src="/freecdn-loader.min.js"></script>
       </head>
     );
   }

@@ -129,7 +129,7 @@ article:
   highlight:
     # Code highlight themes
     # https://github.com/highlightjs/highlight.js/tree/master/src/styles
-    theme: monokai
+    theme: mono-blue
     # Show copy code button
     clipboard: true
     # Default folding status of the code blocks. Can be "", "folded", "unfolded"
@@ -266,7 +266,7 @@ widgets:
       # Bulma: "https://bulma.io"
   # Categories widget configurations
   - # Where should the widget be placed, left sidebar or right sidebar
-    position: left
+    position: right
     type: categories
   # Recent posts widget configurations
   - # Where should the widget be placed, left sidebar or right sidebar

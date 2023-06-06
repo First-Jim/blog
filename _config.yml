@@ -112,4 +112,4 @@ deploy:
   type: git
   repo: https://github.com/First-Jim/First-Jim.github.io.git
   branch: master
-  message: update: personal information
+  message: update personal information

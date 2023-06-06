@@ -112,12 +112,12 @@ class MPromise {
 
       case PENDING: {
         const newPromise = new MPromise((resolve, reject) => {
-          this.FULFILLED_CALLBACK_LIST.push(() =>
+          this.FULFILED_CALLBACK_LIST.push(() =>
             onFulfilledFnWitchCatch(resolve, reject, newPromise)
-          ),
-            this.REJECTED_CALLBACK_LIST.push(() =>
-              onRejectedFnWitchCatch(resolve, reject, newPromise)
-            );
+          );
+          this.REJECTED_CALLBACK_LIST.push(() =>
+            onRejectedFnWitchCatch(resolve, reject, newPromise)
+          );
         });
         return newPromise;
       }
@@ -178,6 +178,19 @@ class MPromise {
     }
   }
 
+  // 实现静态方法
+  static resolve(value) {
+    if (value instanceof MPromise) {
+      return value;
+    }
+
+    return new MPromise((resolve) => resolve(value));
+  }
+
+  static reject(reason) {
+    return new MPromise((resolve, reject) => reject(reason));
+  }
+
   isFunction(param) {
     return typeof param === "function";
   }
@@ -191,7 +204,7 @@ const p1 = new MPromise((resolve, reject) => {
 
 const p2 = new MPromise((resolve, reject) => {
   setTimeout(() => {
-    resolve("test222");
+    reject("test222");
   }, 1000);
 });
 

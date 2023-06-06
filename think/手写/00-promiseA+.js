@@ -10,7 +10,7 @@ class MPromise {
   REJECTED_CALLBACK_LIST = [];
 
   constructor(fn) {
-    this._status = PENDING;
+    this.status = PENDING;
     this.value = null;
     this.reason = null;
 

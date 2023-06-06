@@ -3,7 +3,7 @@ const FULFILLED = "fulfilled";
 const REJECTED = "rejected";
 
 class MPromise {
-  _state = PENDING;
+  _status = PENDING;
   // 状态完成的list
   FULLFILLED_CALLBACK_LIST = [];
   // 状态失败的list
@@ -202,6 +202,7 @@ class MPromise {
 
   // 实现静态方法
   static resolve(value) {
+    // resolve 传入的参数可能是一个promise 或者是一个值
     if (value instanceof MPromise) {
       return value;
     }

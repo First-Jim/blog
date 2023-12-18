@@ -207,13 +207,6 @@ module.exports = class extends Component {
           page={page}
           head={true}
         />
-        {adsenseClientId ? (
-          <script
-            data-ad-client={adsenseClientId}
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-            async
-          ></script>
-        ) : null}
         <script src="/freecdn-loader.min.js"></script>
       </head>
     );

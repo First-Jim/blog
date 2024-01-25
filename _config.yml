@@ -115,4 +115,4 @@ deploy:
   type: git
   repo: https://github.com/First-Jim/First-Jim.github.io.git
   branch: master
-  message: 七牛云oss 配置教程
+  message: add google search

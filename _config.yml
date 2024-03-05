@@ -14,7 +14,7 @@ timezone: Asia/ShangHai
 # hexo-admin authentification
 admin:
   username: admin
-  password_hash: $2a$10$qzHNYomgeNF0iCNnUoB/ley5FWV3RxOlqG4gXNhDnqIWcdeB1dSGe
+  password_hash: $2a$10$qLXhtTcqccL0AlQ.3trUlOhLBd8wr7GruTgj2diSSoqaTzga2u4OG
   secret: hexo-admin-config
 
 # URL

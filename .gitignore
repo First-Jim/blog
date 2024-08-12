@@ -10,5 +10,5 @@ package-lock.json
 .github/
 *.lock
 upload.conf
-.history
+.history/
 .vscode

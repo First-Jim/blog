@@ -36,7 +36,8 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
-  - 'pdfs/pdfjs'
+  - 'pdfs/pdfjs/**/*'  # 具体指定 pdfjs 目录
+  - 'pdfs/data/**/*.pdf'  # 具体指定 PDF 文件
 
 # Writing
 new_post_name: :year-:month-:day-:title.md # File name of new posts
@@ -52,6 +53,7 @@ post_asset_folder: true
 marked:
   prependRoot: true
   postAsset: true
+  html: true
 relative_link: false
 future: true
 highlight:
@@ -97,6 +99,7 @@ pagination_dir: page
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
 include:
+  - '/pdfs'
 exclude:
 ignore:
 

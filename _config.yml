@@ -119,4 +119,4 @@ deploy:
   type: git
   repo: git@github.com:First-Jim/first-jim.github.io.git
   branch: master
-  message: fix file path
+  message: upload pdfs
